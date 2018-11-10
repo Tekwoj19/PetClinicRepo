@@ -34,15 +34,15 @@ public class addingAndFindingOwnerWithDdt {
     public static Object[][] testDataForOwnerDetailsInput() {
         return new String[][]{
                 new String[]{"Tomek", "Testowy12344242", "ul.Zielona", "Opole", "517342455"},
-//                new String[]{"Zenek", "Nosowski", "ul.Niebieska", "Krakow", "516789234"},
-//                new String[]{"Pawel", "Kurek", "ul.Zolta", "Warszawa", "517342455"},
-//                new String[]{"Ariel", "Dzieciol", "ul.Jasna", "Sulejowek", "517342455"},
-//                new String[]{"Jurek", "Bury", "ul.Nowa", "Czestochowa", "517342455"},
-//                new String[]{"Aleksander", "Nowy", "ul.Zielona", "Inowroclaw", "517342455"},
-//                new String[]{"Jerzy", "Wielki", "ul.Wielka", "Gdansk", "517342455"},
-//                new String[]{"Marek", "Dobry", "ul.Smieszna", "Olsztyn", "517342455"},
-//                new String[]{"Julian", "Tela", "ul.Mila", "Pszczolki", "517342455"},
-//                new String[]{"Michal", "Bak", "ul.Dluga", "Opole", "517342455"},
+                new String[]{"Zenek", "Nosowski", "ul.Niebieska", "Krakow", "516789234"},
+                new String[]{"Pawel", "Kurek", "ul.Zolta", "Warszawa", "517342455"},
+                new String[]{"Ariel", "Dzieciol", "ul.Jasna", "Sulejowek", "517342455"},
+                new String[]{"Jurek", "Bury", "ul.Nowa", "Czestochowa", "517342455"},
+                new String[]{"Aleksander", "Nowy", "ul.Zielona", "Inowroclaw", "517342455"},
+                new String[]{"Jerzy", "Wielki", "ul.Wielka", "Gdansk", "517342455"},
+                new String[]{"Marek", "Dobry", "ul.Smieszna", "Olsztyn", "517342455"},
+                new String[]{"Julian", "Tela", "ul.Mila", "Pszczolki", "517342455"},
+                new String[]{"Michal", "Bak", "ul.Dluga", "Opole", "517342455"},
 
 
         };
