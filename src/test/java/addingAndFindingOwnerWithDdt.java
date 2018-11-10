@@ -1,11 +1,9 @@
-import PageObject.FindOwnersPage;
-import PageObject.HomePage;
-import PageObject.OwnerDataPage;
-import PageObject.OwnerInformationPage;
+import PageObject.*;
 import com.tngtech.java.junit.dataprovider.DataProvider;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
 import org.assertj.core.api.Assertions;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 @RunWith(DataProviderRunner.class)
-public class addOwnerWithDdtAndFindAddedOwnerTest {
+public class addingAndFindingOwnerWithDdt {
     private static final String URL = "" +
             "http://localhost:8080/";
 
@@ -28,16 +26,17 @@ public class addOwnerWithDdtAndFindAddedOwnerTest {
     private FindOwnersPage findOwnersPage;
     private OwnerInformationPage ownerInformationPage;
     private OwnerDataPage ownerDataPage;
+    private OwnersPage ownersPage;
 
 
     /* Instead of String[] we can use Object[] or other type. */
     @DataProvider
     public static Object[][] testDataForOwnerDetailsInput() {
         return new String[][]{
-                new String[]{"Tomek", "Nowak", "ul.Zielona", "Opole", "517342455"},
-                new String[]{"Zenek", "Nosowski", "ul.Niebieska", "Krakow", "516789234"},
-                new String[]{"Pawel", "Kurek", "ul.Zolta", "Warszawa", "517342455"},
-                new String[]{"Ariel", "Dzieciol", "ul.Jasna", "Sulejowek", "517342455"},
+                new String[]{"Tomek", "Testowy12344242", "ul.Zielona", "Opole", "517342455"},
+//                new String[]{"Zenek", "Nosowski", "ul.Niebieska", "Krakow", "516789234"},
+//                new String[]{"Pawel", "Kurek", "ul.Zolta", "Warszawa", "517342455"},
+//                new String[]{"Ariel", "Dzieciol", "ul.Jasna", "Sulejowek", "517342455"},
 //                new String[]{"Jurek", "Bury", "ul.Nowa", "Czestochowa", "517342455"},
 //                new String[]{"Aleksander", "Nowy", "ul.Zielona", "Inowroclaw", "517342455"},
 //                new String[]{"Jerzy", "Wielki", "ul.Wielka", "Gdansk", "517342455"},
@@ -57,6 +56,7 @@ public class addOwnerWithDdtAndFindAddedOwnerTest {
         findOwnersPage = PageFactory.initElements(driver, FindOwnersPage.class);
         ownerDataPage = PageFactory.initElements(driver, OwnerDataPage.class);
         ownerInformationPage = PageFactory.initElements(driver, OwnerInformationPage.class);
+        ownersPage = PageFactory.initElements(driver, OwnersPage.class);
 
         driver.get(URL);
     }
@@ -66,33 +66,33 @@ public class addOwnerWithDdtAndFindAddedOwnerTest {
     @UseDataProvider("testDataForOwnerDetailsInput")
 
     public void addOwnerWithDdtAndFindAddedOwnerTest(String firstName, String lastName,
-                                String address, String city, String telephoneNumber) {
+                                                     String address, String city, String telephoneNumber) {
         homePage.FindOwnersButtonOnHomePage();
         findOwnersPage.clickAddOwnerButton();
         ownerDataPage.inputOwnersDataAndAddOwner(firstName, lastName,
                 address, city, telephoneNumber);
         String owner = firstName + " " + lastName;
         Assertions.assertThat(ownerInformationPage.getTextFromCreatedOwnerNameAndSurname())
-                .as("Owner's first and last name not correct").isEqualTo(owner);
-        homePage.FindOwnersButtonOnHomePage();
+                .as(" Added Owner's first and last name not correct").isEqualTo(owner);// checks if owner has been created//
+        homePage.FindOwnersButtonOnHomePage();//finds the owner
         String ownersLastName = lastName;
         findOwnersPage.typeInOwnersLastname(ownersLastName);
         findOwnersPage.clickFindOwnerButton();
-        Assertions.assertThat(ownerInformationPage.getTextFromSearchedOwnerNameAndSurname())
-                .as("Owner's that we searched for, first and last name not correct").isEqualTo(owner);
+        if (ownersPage.getTextFromOwnersHeader().equals("Owners")) { //checks if there are more than one owners with the same name
+            Assertions.assertThat(ownersPage.getTextFromOwnersLastNameWhenThereISmoreThanOneWithTheSameName())
+                    .as(" Searched Owner's first and last name not correct").containsIgnoringCase(ownersLastName);
+        } else if (ownerInformationPage.getTexFromownerInfoHeader().equals("Owner Information")) {//checks if owner has the unique surname
 
-
-
-
-
+            Assertions.assertThat(ownerInformationPage.getTextFromSearchedOwnerNameAndSurname())
+                    .as(" Searched Owner's first and last name not correct").isEqualTo(owner);
+        }
     }
-//        assertThat(ownerInformationPage.getTextFromEditOwnerButton().contains("Edit Owner")).as("User is not Registered");
-//
-//        @After
-//        public void tearDown () {
-//            driver.close();
-//        }
 }
+
+
+
+
+
 
 
 

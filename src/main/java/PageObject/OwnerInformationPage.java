@@ -14,7 +14,7 @@ public class OwnerInformationPage {
     private WebElement createdOwnerNameAndSurnameText;
     @FindBy(xpath = "//a[@class='btn btn-default'][contains(text(),'Owner')]")
     private WebElement editOwnerButtonVisible;
-    @FindBy(xpath = "//tbody//a[contains(text(),'')]")
+    @FindBy(xpath = "//tbody//b[contains(text(),'')]")
     private WebElement seachedOwnersNameAndSurname;
 
     private WebDriver driver;
@@ -38,13 +38,23 @@ public class OwnerInformationPage {
             return editOwnerButtonVisible.getText();
 
 
-        }public String getTextFromSearchedOwnerNameAndSurname () {
+        }
+        public String getTextFromSearchedOwnerNameAndSurname () {
             waits.waitForElementToBeVisible(seachedOwnersNameAndSurname);
             return seachedOwnersNameAndSurname.getText();
 
+        }  public String getTexFromownerInfoHeader() {
+            waits.waitForElementToBeVisible(ownerInfoHeaderText);
+            return ownerInfoHeaderText.getText();
 
         }
-    }
+
+    public void clickEditOWner() {
+        waits.waitForElementToBeVisible(editOwnerButtonVisible);
+        editOwnerButtonVisible.click();}
+
+
+}
 //div[@class= 'container xd-container']//h2[contains(text(),'Owner')]
 
 

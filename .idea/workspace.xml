@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78159a04-48a9-4f27-bb9f-0041ea3dea80" name="Default Changelist" comment="" />
+    <list default="true" id="78159a04-48a9-4f27-bb9f-0041ea3dea80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/test-classes/addingAndFindingOwnerWithDdt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/OwnerInformationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/OwnerInformationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/OwnersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/OwnersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddOwnerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/addOwnerWithDdtAndFindAddedOwnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/addingAndFindingOwnerWithDdt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObject/OwnerInformationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObject/OwnerInformationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObject/OwnersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObject/OwnersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AddOwnerTestWithDDT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FIndOwnerTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,37 +28,37 @@
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="chromedriver_Linux64" value="1" />
-          <entry key="java" value="40" />
+          <entry key="java" value="42" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="40" />
+          <entry key="JAVA" value="42" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="39" />
-          <entry key="java" value="2366" />
+          <entry key="dummy" value="71" />
+          <entry key="java" value="3687" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2366" />
-          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="JAVA" value="3687" />
+          <entry key="PLAIN_TEXT" value="71" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
@@ -58,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="150">
+              <caret line="14" column="37" selection-start-line="13" selection-start-column="3" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#361#362#0" expanded="true" />
@@ -72,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/OwnerInformationPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="180">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +95,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/OwnersPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="450">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/OwnerDataPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
+            <state relative-caret-position="540">
               <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,19 +117,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AddOwnerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/FindOwnersPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" selection-end-line="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AddOwnerTestWithDDT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="38" selection-start-line="38" selection-end-line="39" selection-end-column="88" />
+            <state relative-caret-position="375">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,11 +128,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FIndOwnerTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/addingAndFindingOwnerWithDdt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="420">
+              <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,6 +176,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -191,9 +202,12 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/ChromeDriverMyExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObject/OwnerDataPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObject/FindOwnersPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageObject/OwnersPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageObject/OwnerInformationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddOwnerTestWithDDT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tesowa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObject/OwnerInformationPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObject/OwnersPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/addOwnerWithDdtAndFindAddedOwnerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/addingAndFindingOwnerWithDdt.java" />
       </list>
     </option>
   </component>
@@ -214,33 +228,12 @@
     <option name="width" value="1396" />
     <option name="height" value="984" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PetClinic" type="58d84e3e:PackageViewProjectNode" />
-              <item name="PetClinic" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="PetClinic" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="PetClinic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,6 +280,33 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PetClinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PetClinic" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PetClinic" type="58d84e3e:PackageViewProjectNode" />
+              <item name="PetClinic" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="PetClinic" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PetClinic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -294,22 +314,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541718125106" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541814220112" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/main" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,39 +344,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddOwnerTestWithDDT">
-    <configuration name="AddOwnerTestWithDDT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.addingAndFindingOwnerWithDdt.addOwnerWithDdt">
+    <configuration name="addingAndFindingOwnerWithDdt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetClinic" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddOwnerTestWithDDT" />
+      <option name="MAIN_CLASS_NAME" value="addingAndFindingOwnerWithDdt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddOwnerTestWithDDT.addOwnerWithDdt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="addingAndFindingOwnerWithDdt.addOwnerWithDdt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetClinic" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddOwnerTestWithDDT" />
+      <option name="MAIN_CLASS_NAME" value="addingAndFindingOwnerWithDdt" />
       <option name="METHOD_NAME" value="addOwnerWithDdt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddOwnerTestWithDDT.addOwnerWithDdtAndFindAddedOwnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="addingAndFindingOwnerWithDdt.addOwnerWithDdtAndFindAddedOwnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetClinic" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddOwnerTestWithDDT" />
+      <option name="MAIN_CLASS_NAME" value="addingAndFindingOwnerWithDdt" />
       <option name="METHOD_NAME" value="addOwnerWithDdtAndFindAddedOwnerTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddOwnerTestWithDDT.testDataForOwnerDetailsInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="addingAndFindingOwnerWithDdt.testDataForOwnerDetailsInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetClinic" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddOwnerTestWithDDT" />
+      <option name="MAIN_CLASS_NAME" value="addingAndFindingOwnerWithDdt" />
       <option name="METHOD_NAME" value="testDataForOwnerDetailsInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -364,17 +384,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AddOwnerTestWithDDT.addOwnerWithDdt" />
-      <item itemvalue="JUnit.AddOwnerTestWithDDT" />
-      <item itemvalue="JUnit.AddOwnerTestWithDDT.testDataForOwnerDetailsInput" />
-      <item itemvalue="JUnit.AddOwnerTestWithDDT.addOwnerWithDdtAndFindAddedOwnerTest" />
+      <item itemvalue="JUnit.addingAndFindingOwnerWithDdt.addOwnerWithDdt" />
+      <item itemvalue="JUnit.addingAndFindingOwnerWithDdt" />
+      <item itemvalue="JUnit.addingAndFindingOwnerWithDdt.testDataForOwnerDetailsInput" />
+      <item itemvalue="JUnit.addingAndFindingOwnerWithDdt.addOwnerWithDdtAndFindAddedOwnerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddOwnerTestWithDDT" />
-        <item itemvalue="JUnit.AddOwnerTestWithDDT.testDataForOwnerDetailsInput" />
-        <item itemvalue="JUnit.AddOwnerTestWithDDT.addOwnerWithDdtAndFindAddedOwnerTest" />
-        <item itemvalue="JUnit.AddOwnerTestWithDDT.addOwnerWithDdt" />
+        <item itemvalue="JUnit.addingAndFindingOwnerWithDdt" />
+        <item itemvalue="JUnit.addingAndFindingOwnerWithDdt.testDataForOwnerDetailsInput" />
+        <item itemvalue="JUnit.addingAndFindingOwnerWithDdt.addOwnerWithDdtAndFindAddedOwnerTest" />
+        <item itemvalue="JUnit.addingAndFindingOwnerWithDdt.addOwnerWithDdt" />
       </list>
     </recent_temporary>
   </component>
@@ -392,42 +412,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddOwnerTestWithDDT - 2018.11.07 at 18h 38m 30s.xml">
-      <configuration name="AddOwnerTestWithDDT" configurationId="JUnit" />
+    <history-entry file="addOwnerWithDdtAndFindAddedOwnerTest - 2018.11.10 at 01h 50m 43s.xml">
+      <configuration name="addOwnerWithDdtAndFindAddedOwnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddOwnerTestWithDDT - 2018.11.07 at 19h 14m 02s.xml">
-      <configuration name="AddOwnerTestWithDDT" configurationId="JUnit" />
+    <history-entry file="addOwnerWithDdtAndFindAddedOwnerTest - 2018.11.10 at 01h 52m 53s.xml">
+      <configuration name="addOwnerWithDdtAndFindAddedOwnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddOwnerTestWithDDT - 2018.11.08 at 20h 29m 31s.xml">
-      <configuration name="AddOwnerTestWithDDT" configurationId="JUnit" />
+    <history-entry file="addOwnerWithDdtAndFindAddedOwnerTest - 2018.11.10 at 01h 53m 53s.xml">
+      <configuration name="addOwnerWithDdtAndFindAddedOwnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddOwnerTestWithDDT - 2018.11.08 at 20h 37m 41s.xml">
-      <configuration name="AddOwnerTestWithDDT" configurationId="JUnit" />
+    <history-entry file="addOwnerWithDdtAndFindAddedOwnerTest - 2018.11.10 at 02h 00m 13s.xml">
+      <configuration name="addOwnerWithDdtAndFindAddedOwnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddOwnerTestWithDDT - 2018.11.08 at 20h 38m 31s.xml">
-      <configuration name="AddOwnerTestWithDDT" configurationId="JUnit" />
+    <history-entry file="addOwnerWithDdtAndFindAddedOwnerTest - 2018.11.10 at 02h 00m 34s.xml">
+      <configuration name="addOwnerWithDdtAndFindAddedOwnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddOwnerTestWithDDT - 2018.11.08 at 23h 50m 39s.xml">
-      <configuration name="AddOwnerTestWithDDT" configurationId="JUnit" />
+    <history-entry file="addOwnerWithDdtAndFindAddedOwnerTest - 2018.11.10 at 02h 01m 05s.xml">
+      <configuration name="addOwnerWithDdtAndFindAddedOwnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddOwnerTestWithDDT - 2018.11.08 at 23h 51m 35s.xml">
-      <configuration name="AddOwnerTestWithDDT" configurationId="JUnit" />
+    <history-entry file="addOwnerWithDdtAndFindAddedOwnerTest - 2018.11.10 at 02h 07m 32s.xml">
+      <configuration name="addOwnerWithDdtAndFindAddedOwnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddOwnerTestWithDDT - 2018.11.08 at 23h 55m 54s.xml">
-      <configuration name="AddOwnerTestWithDDT" configurationId="JUnit" />
+    <history-entry file="addOwnerWithDdtAndFindAddedOwnerTest - 2018.11.10 at 02h 16m 16s.xml">
+      <configuration name="addOwnerWithDdtAndFindAddedOwnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddOwnerTestWithDDT - 2018.11.08 at 23h 56m 24s.xml">
-      <configuration name="AddOwnerTestWithDDT" configurationId="JUnit" />
+    <history-entry file="addOwnerWithDdtAndFindAddedOwnerTest - 2018.11.10 at 02h 16m 37s.xml">
+      <configuration name="addOwnerWithDdtAndFindAddedOwnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddOwnerTestWithDDT - 2018.11.08 at 23h 57m 40s.xml">
-      <configuration name="AddOwnerTestWithDDT" configurationId="JUnit" />
+    <history-entry file="addingAndFindingOwnerWithDdt - 2018.11.10 at 02h 23m 02s.xml">
+      <configuration name="addingAndFindingOwnerWithDdt" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26091763" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26755112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -436,15 +456,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32985386" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33995816" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33054394" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32985386" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3294979" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -492,6 +512,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FIndOwnerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/AddOwnerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tesowa.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="37" selection-start-line="13" selection-start-column="3" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/OwnerInformationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/OwnersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/OwnerDataPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/FindOwnersPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -499,20 +564,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AddOwnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FIndOwnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -537,49 +588,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/addingAndFindingOwnerWithDdt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/OwnerDataPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/OwnersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/OwnerInformationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AddOwnerTestWithDDT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="38" selection-start-line="38" selection-end-line="39" selection-end-column="88" />
+        <state relative-caret-position="420">
+          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
