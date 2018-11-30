@@ -78,7 +78,7 @@ public class addingAndFindingOwnerWithDdt {
         String ownersLastName = lastName;
         findOwnersPage.typeInOwnersLastname(ownersLastName);
         findOwnersPage.clickFindOwnerButton();
-        if (ownersPage.getTextFromOwnersHeader().equals("Owners")) { //checks if there are more than one owners with the same name
+        if (ownersPage.getTextFromOwnersHeader().equals("Owners")) { //checks if there are more than one owners with the same surname
             Assertions.assertThat(ownersPage.getTextFromOwnersLastNameWhenThereISmoreThanOneWithTheSameName())
                     .as(" Searched Owner's first and last name not correct").containsIgnoringCase(ownersLastName);
         } else if (ownerInformationPage.getTexFromownerInfoHeader().equals("Owner Information")) {//checks if owner has the unique surname
